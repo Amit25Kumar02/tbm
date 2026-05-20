@@ -105,17 +105,18 @@ function HeroSection() {
                 Download on App Store
               </motion.a>
 
-              <motion.button
+              <motion.a
+                href='/features'
                 whileHover={{ scale: 1.05 }}
                 whileTap={{ scale: 0.95 }}
                 // onClick={() => document.getElementById('footer')?.scrollIntoView({ behavior: 'smooth' })}
                 className="cursor-pointer flex items-center justify-center gap-2 bg-[#0B1220] border border-[#00FF85]/20 text-white px-8 py-4 rounded-lg font-semibold hover:bg-[#00FF85]/10 transition-all"
               >
-                <a href="/features">
+
                 Explore Features
-                </a>
+
                 <ArrowRight size={20} />
-              </motion.button>
+              </motion.a>
             </div>
 
             {/* Stats Cards */}
@@ -552,25 +553,27 @@ function DownloadCTASection() {
           </p>
 
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
-            <motion.button
+            <motion.a
+              href="https://apps.apple.com/us/app/the-betting-matrix/id6760174152"
+              target="_blank"
+              rel="noopener noreferrer"
               whileHover={{ scale: 1.05 }}
               whileTap={{ scale: 0.95 }}
-              className="flex items-center justify-center gap-2 bg-gradient-to-r from-[#00FF85] to-[#00E0FF] text-[#060B12] px-10 py-5 rounded-lg font-semibold shadow-lg shadow-[#00FF85]/25 text-lg"
+              className="cursor-pointer flex items-center justify-center gap-2 bg-gradient-to-r from-[#00FF85] to-[#00E0FF] text-[#060B12] px-10 py-5 rounded-lg font-semibold shadow-lg shadow-[#00FF85]/25 text-lg"
             >
               <Download size={24} />
               App Store
-            </motion.button>
+            </motion.a>
 
-            <motion.button
+            <motion.a
+              href="/pricing"
               whileHover={{ scale: 1.05 }}
               whileTap={{ scale: 0.95 }}
-              className="flex items-center justify-center gap-2 bg-gradient-to-r from-[#00FF85] to-[#00E0FF] text-[#060B12] px-10 py-5 rounded-lg font-semibold shadow-lg shadow-[#00FF85]/25 text-lg"
+              className="cursor-pointer flex items-center justify-center gap-2 bg-gradient-to-r from-[#00FF85] to-[#00E0FF] text-[#060B12] px-10 py-5 rounded-lg font-semibold shadow-lg shadow-[#00FF85]/25 text-lg"
             >
-              <a href="/pricing">
               Join G Pro
-              </a>
               <ArrowRight size={24} />
-            </motion.button>
+            </motion.a>
           </div>
         </motion.div>
       </div>
