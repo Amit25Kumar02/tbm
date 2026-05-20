@@ -209,7 +209,7 @@ function FAQSection() {
     },
     {
       question: 'What sports do you cover?',
-      answer: 'We cover 25+ sports including NFL, NBA, MLB, NHL, Soccer, Tennis, Golf, MMA, Boxing, and many more. Our G Pro plan includes access to all sports.'
+      answer: 'We cover 25+ sports including NFL, NBA, MLB, NHL, Soccer, Tennis, Golf, MMA, Boxing, and many more. Our Go Pro plan includes access to all sports.'
     },
     {
       question: 'How accurate are your predictions?',

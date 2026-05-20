@@ -261,7 +261,7 @@ function WhyTBMSection() {
     },
     {
       icon: Sparkles,
-      title: 'G Pro Intelligence',
+      title: 'Go Pro Intelligence',
       description: 'Premium features for serious players',
       gradient: 'from-[#00FF85] to-[#00E0FF]'
     },
@@ -571,7 +571,7 @@ function DownloadCTASection() {
               whileTap={{ scale: 0.95 }}
               className="cursor-pointer flex items-center justify-center gap-2 bg-gradient-to-r from-[#00FF85] to-[#00E0FF] text-[#060B12] px-10 py-5 rounded-lg font-semibold shadow-lg shadow-[#00FF85]/25 text-lg"
             >
-              Join G Pro
+              Join Go Pro
               <ArrowRight size={24} />
             </motion.a>
           </div>

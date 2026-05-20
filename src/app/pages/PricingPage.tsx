@@ -194,15 +194,15 @@ function FAQSection() {
   const faqs = [
     {
       question: 'Can I cancel at any time?',
-      answer: 'Yes! You can cancel your subscription at any time. You\'ll retain access to G Pro features until the end of your current billing period.'
+      answer: 'Yes! You can cancel your subscription at any time. You\'ll retain access to Go Pro features until the end of your current billing period.'
     },
     {
       question: 'What payment methods do you accept?',
       answer: 'We accept all major credit cards, debit cards, and PayPal. All payments are processed securely.'
     },
     {
-      question: 'Is there a free trial for G Pro?',
-      answer: 'Yes! New G Pro subscribers get a 7-day free trial with full access to all premium features. No credit card required.'
+      question: 'Is there a free trial for Go Pro?',
+      answer: 'Yes! New Go Pro subscribers get a 7-day free trial with full access to all premium features. No credit card required.'
     },
     {
       question: 'Do you offer refunds?',
